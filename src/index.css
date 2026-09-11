@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Bodoni Moda', serif;
+    --font-sans: 'Vazirmatn', 'Work Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f9f9f7;
+    color: #1a1c1b;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+
+  .font-tech, .font-code {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f0eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d2c9;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a598;
+}
+
+/* Subtle architectural CAD grid background */
+.bg-cad-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(229, 228, 222, 0.6) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(229, 228, 222, 0.6) 1px, transparent 1px);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Hirad Atelier & Commerce",
+  "description": "پلتفرم بازرگانی و فروشگاه لوکس معماری هیراد - Hirad Luxury Editorial Commerce Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
